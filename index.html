@@ -1,54 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>My CV</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="auther" content="Tithi Biswas">
+    <meta name="description" content="HTML CV">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Tithi Biswas</title>
 </head>
 
 <body>
+    <header>
+        <table width="100%" cellpadding="12">
+            <tr>
+                <td>
+                    <h2>Tithi Biswas</h2>
+                    <p>Student | Department of CSE</p>
+                    <p>Email: biswati2003@gmail.com</p>
+                    <p>Phone: 01845678910</p>
+                </td>
+                <td align="right">
+                    <figure>
+                        <img src="profile.jpg" alt="Profile Image" width="100" height="100">
+                    </figure>
+                </td>
+            </tr>
+        </table>
+    </header>
 
-<div class="cv-container">
+    <hr>
 
-    <div class="header">
-        <img src="profile.jpg" alt="Profile Photo" height="123">
+    <main>
 
-        <div>
-            <h1>Tithi Biswas</h1>
-            <p>Student | Department of CSE</p>
-            <p>Email: biswasti2003@gmail.com</p>
-            <p>Phone: 018455678910</p>
-        </div>
-    </div>
+        <section>
+            <h3>About Me</h3>
+            <p>
+                I am a third semester university student interested in learning programming
+                and web development. I am motivated and eager to improve my skills.
+            </p>
+        </section>
 
-    <div class="portion">
-        <h2>About Me</h2>
-        <p>
-            I am a third semester university student interested in learning programming
-            and web development. I am motivated and eager to improve my skills.
-        </p>
-    </div>
+        <hr>
 
-    <div class="portion">
-        <h2>Education</h2>
-        <ul>
-            <li>BSC in CSE - Premier University (3rd semester)</li>
-            <li>HSC - Sir Ashutosh Govt. College</li>
-            <li>SSC -Gomdandi Pilot Model High School Name</li>
-        </ul>
-    </div>
+        <section>
+            <h3>Basic Information</h3>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <tr>
+                    <th>Indicatio</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>Tithi Biswas</td>
+                </tr>
+                <tr>
+                    <td>University</td>
+                    <td>Premier University</td>
+                </tr>
+                <tr>
+                    <td>Departmebt</td>
+                    <td>Computer Science and Engineering</td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>Bangladesh</td>
+                </tr>
 
-    <div class="portion">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML & CSS (Basic)</li>
-            <li>C / C++ / Programming Fundamentals</li>
-            <li>MS Word</li>
-        </ul>
-    </div>
+            </table>
+        </section>
+        <hr>
 
-</div>
+        <section>
+            <h3>Education</h3>
+            <ul>
+                <li>BSC in CSE Premier University (3rd Semester)</li>
+                <li>HSC Sir Ashutosh Govt. College</li>
+                <li>SSC Gomdandi Pilot Model High School</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML & CSS(basic)</li>
+                <li>C programming</li>
+                <li>C++ / Programming Fundamentals</li>
+                <li>MS word</li>
+            </ul>
+        </section>
 
+        <hr>
+
+        <section>
+            <h3>Projects</h3>
+
+            <article>
+                <h4>Personal CV Website</h4>
+                <p>Created a simple personal CV website to practice document structure, semantic tags and clean
+                    formating</p>
+            </article>
+
+        </section>
+        <hr>
+        <section>
+
+            <h3>Interests</h3>
+
+            <ul>
+                <li>Software Development</li>
+                <li>Problem Solving</li>
+                <li>Learn new things</li>
+            </ul>
+
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <h3>Contact</h3>
+        <address>
+            Email:
+            <a href="mailto:biswasti2003@gmail.com">biswasti2003@gmail.com</a>
+        </address>
+
+        <pre>                OR</pre>
+        
+        <form>
+            <fieldset>
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email"><br><br>
+
+                <label for="msg">Message:</label><br>
+                <textarea id="msg" rows="4" cols="30"></textarea><br><br>
+
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </footer>
 </body>
-</html>
 
+</html>
